@@ -1,17 +1,17 @@
 import React from 'react'
-import Layout from '../../pages/Layout'
+import Layout from './Layout'
 
-const  Signin = () => {
+const Home = () =>  {
     return (
         <div>
-            <Layout 
-               title="Singin Page" 
+           <Layout 
+               title="Home Page" 
                description="Node React Ecomerce" 
                className="container" >
-                   <h2>SignIn</h2>
+                   <h2>Hello</h2>
                </Layout>
         </div>
     )
 }
 
-export default Signin
+export default Home
